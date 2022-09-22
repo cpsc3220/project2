@@ -173,7 +173,7 @@ command or an external command. If the command is a built-in command, your shell
 invoke the function that implements the command. For example, when shell sees the command **cd destpath**, it invokes the function chdir("destpath"). Note that shell doesn't fork a new process for built-in commands such as **cd**.  
 1. While most Unix shells have numerous built-in commands, in this project, you shall implement
 **exit** and **cd**. The syntax and semantics of the 
-three commands are described as follows.
+two commands are described as follows.
 1. **exit [n]** 
    * Cause the shell to exit with a status of n.
    * If n is omitted, the exit status is that of the last command executed.
